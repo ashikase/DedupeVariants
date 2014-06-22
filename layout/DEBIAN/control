@@ -1,0 +1,13 @@
+Package: jp.ashikase.dedupevariants
+Name: DedupeVariants
+Version: 0.0.0
+Architecture: iphoneos-arm
+Description: Remove duplicate entries from key popups.
+Homepage: http://github/ashikase/DedupeVariants/
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dedupevariantsData
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Section: Tweaks
+Depends: mobilesubstrate, firmware (>= 5.0)
+dev: ashikase
+Sponsor: thebigboss.org <http://thebigboss.org>
