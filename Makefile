@@ -2,7 +2,7 @@ TWEAK_NAME = DedupeVariants
 DedupeVariants_OBJCC_FILES = Tweak.xm
 DedupeVariants_CFLAGS = -F$(SYSROOT)/System/Library/CoreServices
 
-TARGET := iphone:7.0:5.0
+TARGET := iphone:7.1:5.0
 ARCHS := armv6 arm64
 
 include theos/makefiles/common.mk
