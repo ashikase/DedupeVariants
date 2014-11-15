@@ -1,6 +1,6 @@
 Package: jp.ashikase.dedupevariants
 Name: DedupeVariants
-Version: 1.0.0
+Version: 1.0.1
 Architecture: iphoneos-arm
 Description: Remove duplicate entries from key popups.
 Homepage: http://github/ashikase/DedupeVariants/
