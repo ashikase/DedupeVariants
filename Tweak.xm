@@ -26,7 +26,7 @@ static BOOL shouldFilter$ = NO;
 %hook UIKeyboardLayoutStar
 
 - (void)showPopupVariantsForKey:(id)key {
-    shouldFilter$ = YES;
+    shouldFilter$ = !([[key name] isEqualToString:@"Thai-Accents"] && [[key representedString] isEqualToString:@"\u0e48"]);
     %orig();
     shouldFilter$ = NO;
 }
